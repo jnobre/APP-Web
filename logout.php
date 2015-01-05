@@ -1,0 +1,1 @@
+<?phpsession_start();session_destroy();if ($_SESSION) {?>    	<meta HTTP-EQUIV="REFRESH" content="0; url=index.php"><?php}Else{echo("Logout Feito Sem  Sucesso! Erro!");}?>
